@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ompmcp</AssemblyName>
+    <RootNamespace>OmpMcp</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol.Core" Version="1.3.0" />
+    <InternalsVisibleTo Include="OmpMcp.Tests" />
+  </ItemGroup>
+</Project>
